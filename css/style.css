@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+:target {
+  scroll-margin-top: .8em;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   color: #000000;
@@ -465,18 +469,6 @@ a:focus {
 .department_section .btn-box a:hover {
   background-color: transparent;
   color: #62d2a2;
-}
-
-#about:target {
-  scroll-margin-top: .2em;
-}
-
-#treatment:target {
-    scroll-margin-top: .2em;
-}
-
-#testimonials:target {
-  scroll-margin-top: .2em;
 }
 
 .about_section .row {
